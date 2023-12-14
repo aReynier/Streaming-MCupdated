@@ -7,6 +7,8 @@ CREATE TABLE movie(
     updated_at timestamp without time zone DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY(movie_id)
 );
+ALTER TABLE movie ADD COLUMN release_date date;
+
 COMMENT ON COLUMN movie.title IS 'This is a column for movie titles';
 COMMENT ON COLUMN movie.duration IS 'This is a column for movie durations';
 COMMENT ON COLUMN movie.created_at IS 'This is a column for movie created at';

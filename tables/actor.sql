@@ -8,3 +8,24 @@ CREATE TABLE actor(
 );
 COMMENT ON COLUMN actor.first_name IS 'This is a column for actor first names';
 COMMENT ON COLUMN actor.last_name IS 'This is a column for actor last names';
+
+-- ALTER-- Modifier la longueur de la colonne "first_name"
+ALTER TABLE actor
+ALTER COLUMN first_name TYPE varchar(100);
+
+ALTER TABLE actor
+ALTER COLUMN last_name TYPE varchar(100);
+
+-- Supprimer la colonne "updated_at"
+ALTER TABLE actor
+DROP COLUMN updated_at;
+
+-- Actor Id
+ALTER TABLE actor
+DROP COLUMN actor_id;
+
+ALTER TABLE actor
+ADD COLUMN actor_id SERIAL PRIMARY KEY;
+
+
+

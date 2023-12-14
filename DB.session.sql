@@ -5,3 +5,4 @@ VALUES (
     'last_name:character varying',
     'modified_at:timestamp without time zone'
   );
+  
