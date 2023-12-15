@@ -2,13 +2,12 @@
 CREATE TABLE movie_actors(
     movie_id integer NOT NULL,
     actor_id integer NOT NULL,
-    role varchar(255),
     created_at timestamp without time zone DEFAULT now(),
     updated_at timestamp without time zone DEFAULT now(),
+    role varchar(50),
     PRIMARY KEY(movie_id,actor_id),
     CONSTRAINT movie_actors_movie_id_fkey FOREIGN key(movie_id) REFERENCES movie(movie_id),
     CONSTRAINT movie_actors_actor_id_fkey FOREIGN key(actor_id) REFERENCES actor(actor_id)
 );
 COMMENT ON COLUMN movie_actors.movie_id IS 'This is a column for movie id';
 COMMENT ON COLUMN movie_actors.actor_id IS 'This is a column for actor id';
-COMMENT ON COLUMN movie_actors.role IS 'This is a column for actor role in the movie';
