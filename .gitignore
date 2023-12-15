@@ -1,0 +1,69 @@
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Ignore SQL Server directories
+bin/
+obj/
+
+# Ignore SQL Server project Schemas
+bin/
+obj/
+*.user
+*.dbmdl
+*.dbproj.schemaview
+Generated_Code/
+
+# Ignore SQL Server deployment script
+Script.PostDeployment.sql
+Script.PreDeployment.sql
+
+# Ignore SQL Server SQLCMD Variables file
+*.sqldeployment
+
+# Ignore SQL Server Database Project Settings
+Database.sqlsettings
+
+# Ignore SQL Server System Files
+*.bak
+*.trn
+*.log
+*.config
+
+# Ignore SQL Server analysis result files
+*.sqlplan
+
+# Ignore SQL Server profiler files
+*.trc
+
+# Ignore SQL Server Reporting Services files
+*.rdl.data
+*.rptproj.user
+
+# Ignore SQL Server Integration Services package execution output
+*.ispac
+*.manifest
+*.dtsx
+*.deploymanifest
+
+# Ignore SQL Server Master Data Services deployment package
+*.package
+*.deploymentmanifest
+*.dwp
+
+# Ignore SQL Server Analysis Services files
+*.asdatabase
+*.abf
+*.deploymentoptions
+
+# Ignore SQL Server Management Studio auto-generated scripts
+Script.*
+
+# Ignore SQL Server Query Store files
+*.sqlplan
+*.xel
+*.xem

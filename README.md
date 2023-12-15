@@ -19,7 +19,7 @@ Ce dépôt contient le code SQL et la structure de base de données pour la plat
 ## Utilsation VSCode
 
 1. Installez l'extension PostgreSQL (https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-postgresql-client2) pour VSCode.
-![Extension PostgreSQL](./bin/Screenshot%202023-12-15%20at%2014.57.14.png)
+![Extension PostgreSQL](./divers/Screenshot%202023-12-15%20at%2014.57.14.png)
 
 2. Ouvrez le dossier du projet dans VSCode.
 
