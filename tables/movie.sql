@@ -6,6 +6,7 @@ CREATE TABLE movie(
     created_at timestamp without time zone DEFAULT CURRENT_TIMESTAMP,
     updated_at timestamp without time zone DEFAULT CURRENT_TIMESTAMP,
     release_date date,
+    release_year integer,
     PRIMARY KEY(movie_id)
 );
 COMMENT ON COLUMN movie.title IS 'This is a column for movie titles';
